@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
 var crystals = {
-    values: ["red", "green", "blue", "yellow"],
+    values: ["purple", "red", "blue", "yellow"],
     power: [
         Math.floor(Math.random()*12)+1, 
         Math.floor(Math.random()*12)+1,
@@ -11,11 +11,10 @@ var crystals = {
     ],
 
     images: [
-        "https://via.placeholder.com/200",
-        "https://via.placeholder.com/200",
-        "https://via.placeholder.com/200",
-        "https://via.placeholder.com/200",
-        
+        "purple-crystal.png",
+        "red-crystal.png",
+        "blue-crystal.png",
+        "yellow-crystal.png",
     ]
 }
 
@@ -44,6 +43,7 @@ function gameRun(){
                 if ($(this).val() === crystals.values[i]){
                     console.log("You clicked the " + crystals.values[i] + " crystal.");
                     console.log("Secret Points Value: " + crystals.power[i]);
+
                     totalScore += crystals.power[i];
                     $("#score").text(totalScore);
                     crystals.power[i] = Math.floor(Math.random()*12)+1
