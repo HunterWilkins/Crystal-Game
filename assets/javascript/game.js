@@ -11,10 +11,10 @@ var crystals = {
     ],
 
     images: [
-        "purple-crystal.png",
-        "red-crystal.png",
-        "blue-crystal.png",
-        "yellow-crystal.png",
+        "assets/images/purple-crystal.png",
+        "assets/images/red-crystal.png",
+        "assets/images/blue-crystal.png",
+        "assets/images/yellow-crystal.png",
     ]
 }
 
