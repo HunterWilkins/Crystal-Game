@@ -1,0 +1,32 @@
+body{
+    margin-right:10%;
+    margin-left:10%;
+}
+
+h1{
+    text-align:center;
+}
+
+.goal-number{
+    text-align:center;
+    background-color:green;
+    color: white;
+}
+
+.crystal-container, .stats{
+    height:25%;
+}
+
+.crystal-container{
+    background-color:lightgrey;
+}
+
+.stats{
+    background-color:lightblue;
+    color:white;
+}
+
+.images:hover{
+cursor:pointer;
+
+}
